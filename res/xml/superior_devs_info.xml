@@ -271,6 +271,16 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/TheMarc43" />
     </Preference>
+
+    <Preference
+        android:key="maintainer_phoenix"
+        android:title="@string/device_phoenix"
+        android:summary="@string/device_phoenix_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Harvey_Spectar" />
+    </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
